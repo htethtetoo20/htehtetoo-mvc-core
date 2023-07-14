@@ -1,14 +1,14 @@
 <?php
 
-namespace app\core;
+namespace htethtetoo\phpmvc;
 
-use app\core\middlewares\BaseMiddleware;
+use htethtetoo\phpmvc\middlewares\BaseMiddleware;
 
 class Controller
 {
     public string $layout='main';
 
-    /** @var \app\core\middlewares\BaseMiddleware[] */
+    /** @var \htethtetoo\phpmvc\middlewares\BaseMiddleware[] */
     protected array $middlewares=[];
 
     public string $action='';

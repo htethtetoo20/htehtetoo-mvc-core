@@ -1,7 +1,7 @@
 <?php
-namespace app\core;
-use app\core\db\Database;
-use app\core\db\DbModel;
+namespace htethtetoo\phpmvc;
+use htethtetoo\phpmvc\db\Database;
+use htethtetoo\phpmvc\db\DbModel;
 use app\models\User;
 
 class Application

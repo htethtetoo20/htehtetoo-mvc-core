@@ -1,4 +1,9 @@
 {
     "name": "htethtetoo/phpmvc",
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "htethtetoo\\phpmvc\\": "./"
+        }
+    }
 }

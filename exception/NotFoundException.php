@@ -1,6 +1,6 @@
 <?php
 
-namespace app\core\exception;
+namespace htethtetoo\phpmvc\exception;
 
 use Throwable;
 
